@@ -25,7 +25,7 @@ while True:
     print("                                       [",nom,":",user_vect,"]   [ égalités:",egal,"]   [ Pc:",pc_vect,"]\n")
 
 
-    t=str(input("Selectionner votre coup: Pour Pierre select :(p), Pour Feuille select :(f), Pour Ciseaux select :(c), \nPour Nouvelle Partie select(n). \nPour Quitter select :(q).\n"))
+    t=str(input("Selectionner votre coup: Pour Pierre select :(p), Pour Feuille select :(f), Pour Ciseaux select :(c). \nPour Nouvelle Partie select(n). \nPour Quitter select :(q).\n"))
     if t=="n":
         user_vect=0
         pc_vect=0
